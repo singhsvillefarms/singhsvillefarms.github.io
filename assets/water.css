@@ -1,14 +1,15 @@
-body {background-image: url("img/trees.jpg"); no-repeat center center fixed; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;}
+body {background-image: url("img/trees.jpg"); no-repeat center center fixed; background-size: cover; 
+-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;}
 #frame {position: absolute; left: 10px; top: 50px; bottom: 10px; right: 10px; height: 15%; padding: 100px;}
-p {background-color: 929fab; font-family: Helvetica, Verdana; font-size: 14px; line-height: 30px; text-align:justify;}
-h1 {color: 993335;}
-h2 {background-color: 5e6d75; opacity: 0.3; padding: 200px; font-size: 24px; text-align: center;}
-h3 {background-color: 929fab; opacity: 0.6; font-family: Serif, Georgia; font-size: 18px; line-height: 30px; text-align: center; padding: 100px; left:20px; right 20px;}
-h4 {background-color: 929fab; opacity: 0.9; font-family: Helvetica, Verdana; font-size: 18px; line-height: 30px; text-align:justify; padding: 100px; left:20px; right 20px;}
-h5 {background-color: 993335; opacity: 0.3;}
-br {padding: 20px; opacity: 0.3;}
+p {border-radius: 15px 50px; width: auto; background-color: e3e3cd; font-family: Helvetica, Verdana; font-size: 14px; line-height: 30px; text-align:justify;}
+h1 {border-radius: 15px 50px; color: 49494d;}
+h2 {border-radius: 15px 50px; width: auto; background-color: e3e3cd; opacity: 0.3; padding: 200px; font-size: 24px; text-align: center;}
+h3 {border-radius: 15px 50px; width: auto; background-color: e3e3cd; opacity: 0.6; font-family: Serif, Georgia; font-size: 18px; line-height: 30px; text-align: center; padding: 100px; left:20px; right 20px;}
+h4 {border-radius: 15px 50px; width: auto; background-color: e3e3cd; opacity: 0.9; font-family: Helvetica, Verdana; font-size: 18px; line-height: 30px; text-align:justify; padding: 100px; left:20px; right 20px;}
+h5 {border-radius: 15px 50px; width: auto; background-color: e3e3cd; opacity: 0.3;}
+br {border-radius: 15px 50px; padding: 20px; opacity: 0.3;}
 ul {color: 330600; margin: 0; padding: 0;}
 li {font-family: Helvetica, Verdana; color: 333236;}
 li a { text-decoration: none; color: #000; display: block; color: 445d64;}
-img {padding: 10px; left: 10px; right: 10px;}
+img {border-radius: 15px 50px; width: 100%; height: auto; padding: 10px; left: 10px; right: 10px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;}
 .flask {height: 20px;  border: 0px; align: center;}
